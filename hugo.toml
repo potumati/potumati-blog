@@ -1,0 +1,71 @@
+baseURL = 'https://potumati.com/'
+languageCode = 'en-us'
+title = 'Eduardo Potumati'
+theme = "PaperMod"
+googleAnalytics = 'G-PVBR26GS2P'
+
+[[menu.main]]
+    identifier = "posts"
+    name = "Archive"
+    url = "/posts"
+    weight = 10
+[[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags"
+    weight = 20
+[[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 30
+
+[params]
+    env = "production"
+    title = "Eduardo Potumati"
+    description = "Senior .NET Developer & Streaming Engineer | Software Architecture Specialist"
+    author = "Eduardo Potumati"
+    
+    ShowSearchButton = true
+    ShowReadingTime = true
+    ShowShareButtons = true
+    ShowCodeCopyButtons = true
+
+    [params.profileMode]
+        enabled = true
+        title = "Eduardo Potumati"
+        subtitle = "Senior .NET Developer & Streaming Engineer. 20+ years of experience in Software Architecture and High-Performance Systems."
+        imageUrl = "/profile-picture.jpg"
+        imageWidth = 150
+        imageHeight = 150
+        imageAlt = "Eduardo Potumati"
+        
+        [[params.profileMode.buttons]]
+            name = "Read Articles"
+            url = "posts"
+        [[params.profileMode.buttons]]
+            name = "LinkedIn Profile"
+            url = "https://www.linkedin.com/in/potumati/"
+
+    [[params.socialIcons]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/potumati/"
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/potumati"
+
+    [params.assets]
+        disableHLJS = false
+
+    [params.schema]
+        publisherType = "Person"
+        favicon = "favicon.ico"
+        favicon16x16 = "favicon-16x16.png"
+        favicon32x32 = "favicon-32x32.png"
+        apple_touch_icon = "apple-icon-180x180.png"
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
+[markup.goldmark.renderer]
+    unsafe = true

@@ -1,0 +1,34 @@
+# --- Hugo Specific ---
+# Pasta de build final (gerada pelo comando hugo)
+public/
+# Cache de recursos e processamento de imagens
+resources/_gen/
+# Arquivo de trava de build
+.hugo_build.lock
+
+# --- OS Specific ---
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+# macOS
+.DS_Store
+
+# --- Editor/IDE Specific ---
+# VS Code (Configurações locais que não devem ser compartilhadas)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+# JetBrains (Rider/IntelliJ)
+.idea/
+
+# --- Environment/Logs ---
+*.log
+.env
+.env.*
+
+# --- Node/Assets (Caso use pacotes npm para algum tema)
+node_modules/
+dist/

@@ -30,12 +30,16 @@ googleAnalytics = 'G-PVBR26GS2P'
     ShowReadingTime = true
     ShowShareButtons = true
     ShowCodeCopyButtons = true
+    ShowToc = true
+    TocOpen = false
+    ShowWordCount = true
+    ShowBreadCrumbs = true
 
     [params.profileMode]
         enabled = true
         title = "Eduardo Potumati"
         subtitle = "Senior .NET Developer & Streaming Engineer. 20+ years of experience in Software Architecture and High-Performance Systems."
-        imageUrl = "/profile-picture.jpg"
+        imageUrl = "/profile-picture.webp"
         imageWidth = 150
         imageHeight = 150
         imageAlt = "Eduardo Potumati"
@@ -69,3 +73,13 @@ googleAnalytics = 'G-PVBR26GS2P'
 
 [markup.goldmark.renderer]
     unsafe = true
+
+[markup]
+  [markup.highlight]
+    style = "dracula"
+    lineNos = true
+    codeFences = true
+    guessSyntax = true
+
+[minify]
+  disableXML = true

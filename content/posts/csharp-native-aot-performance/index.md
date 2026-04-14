@@ -6,7 +6,6 @@ draft = false
 tags = ["csharp", "dotnet", "Native AOT", "Cloud Computing", "Architecture", "Serverless", "LinkedIn Post"]
 categories = ["Backend", "Performance Tuning"]
 author = "Eduardo Potumati"
-canonicalURL = "https://www.linkedin.com/posts/potumati_dotnet-csharp-nativeaot-activity-7419714300098891777-B5zF?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAGzxU4BM2J38YwZLdJjXXQDdoPvNE5m_d0"
 [cover]
     image = "cover.jpg"
     alt = "Performance comparison chart showing C# Native AOT vs standard Runtime. Native AOT achieves 11MB app size, 40MB memory usage, and 35ms startup time."
